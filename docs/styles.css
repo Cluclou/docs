@@ -6,10 +6,11 @@ body {
 }
 
 header {
-    background-color: #007BFF;
-    color: #fff;
+    border: 2px solid #007BFF;
+    padding: 10px;
+    border-radius: 8px;
     text-align: center;
-    padding: 20px;
+    color: #007BFF;
 }
 
 h1, h2, h3 {
@@ -35,6 +36,7 @@ footer {
     background-color: #ffffff;
     color: #1100ff;
 }
+
 footer a {
     display: inline-block;
     padding: 8px 12px;
@@ -50,29 +52,24 @@ footer a:hover {
     color: #fff;
 }
 
-
 a {
     color: #007BFF;
     text-decoration: none;
     font-weight: bold;
 }
+
 #projects {
-    border: 3px solid #007BFF; /* Couleur bleue pour la bordure */
-    padding: 30px; /* Espace de rembourrage augmenté */
-    border-radius: 12px; /* Bordure arrondie plus prononcée */
+    border: 3px solid #007BFF;
+    padding: 30px;
+    border-radius: 12px;
     margin-bottom: 20px;
 }
 
 #projects h2 {
-    border: 2px solid #007BFF; /* Couleur bleue pour la bordure */
-    padding: 10px; /* Espace de rembourrage à l'intérieur de la bordure */
-    border-radius: 8px; /* Bordure arrondie */
+    border: 2px solid #007BFF;
+    padding: 10px;
+    border-radius: 8px;
     text-align: center;
-    color: #007BFF /* Couleur du texte du titre */
-}
-
-.project h3 {
-    text-decoration: underline;
     color: #007BFF;
 }
 
@@ -83,20 +80,12 @@ a {
     border-radius: 5px;
     color: #007BFF;
     text-decoration: none;
-    margin-top: 10px; /* Ajoute un espace en haut du lien */
+    margin-top: 10px;
 }
 
 .project a:hover {
     background-color: #007BFF;
     color: #fff;
-}
-
-#projects h2 {
-    border: 2px solid #007BFF;
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-    color: #007BFF;
 }
 
 #projects ul {
@@ -122,3 +111,14 @@ a {
     background-color: #007BFF;
     color: #fff;
 }
+
+#projects h2 {
+    border: 2px solid #007BFF;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: #007BFF;
+}
+
+
+
